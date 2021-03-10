@@ -1,0 +1,208 @@
+#appcation {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+	width:100%;
+	max-width: 520px;
+	margin:0 auto;
+	background:#F7F7F7;
+	display: block;
+}
+#head_pinks_bg {
+	width: 100%;
+	max-width:520px;
+	background-color:#F97777;
+	/* border-radius:0px 0px 4rem 4rem; */
+	height:96px;
+	position: fixed;
+	top:0px;
+	z-index:8888;
+}
+#main_layout{
+	position:relative;
+	top:109px;
+	display: block;
+	width:100%;
+	margin:0 auto;
+	margin-bottom: 10rem;
+	background: #F7F7F7;
+	padding-bottom:1rem;
+}
+#main_layout #ba_pink_2{
+	width: 100%;
+	max-width:520px;
+	background-color:#F97777;
+	height:116px;
+	border-radius:0rem 0rem 4rem 4rem;
+	position:absolute;
+	top: -13px;
+}
+#tabbar_item{
+	position: fixed;
+	width:100%;
+	max-width:520px;
+	bottom:0rem;
+
+}
+#jingsuan_shopp{
+	margin-bottom:1rem;
+}
+#hot_shopp{
+	margin-bottom:1rem;
+}
+#likes_item{
+	margin-bottom:0rem;
+	background:#FFFFFF;
+	margin-top:.9rem;
+	width:100%;
+}
+#likes_item_name{
+	display: block;
+	color:rgb(102,102,102);
+	font-size: 1rem;
+	text-align: center;
+	padding: 1.1rem 0rem;
+}
+#finshlines {
+    display: block;
+    color: #E0E2E4;
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.55rem 0rem 4.5rem 0rem;
+}
+
+/* BANNER */
+  .my-swipe .van-swipe-item {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+		border-radius:1rem;
+		height:100%;
+		max-height:189px;
+  }
+	.my-swipe .van-swipe-item img{
+		width:100%;
+		height:100%;
+	}
+	#swipe_img{
+		border-radius:1rem;
+		overflow: hidden;
+		width:489px;
+		max-width:489px;
+		margin:0 auto;
+		cursor: pointer;
+	}
+	
+	/* 分类列表 */
+#navigation_item{
+		margin:1.4rem auto 0.9rem auto;
+		width:490px;
+		max-width:490px;
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.navigation_item_name{
+		width: 92px;
+		margin: 3px;
+		margin-bottom:1rem;
+		cursor:pointer;
+	}
+	.navigation_item_name img{
+		border-radius:8rem;
+		width:75px;
+		margin-bottom:0.9rem;
+	}
+
+	.shopp #thumbnail img{
+		width:100%;
+	}
+	.shopp #param{
+		text-align:left;
+	}
+
+	.shopp #param .money_layout i#price_icon{
+			text-align:left;
+			color: #ff0000;
+			font-size: 14px;
+			font-style:initial;
+		}
+	.shopp #param .money_layout i#price_icon1{
+			text-align:left;
+			color: #666;
+			font-size: 14px;
+			text-decoration: line-through;
+			font-style:initial;
+		}
+	.shopp #param .money_layout #price{
+		text-align:left;
+		color: #ff0000;
+		font-size: 26px;
+		margin-right:9px;
+	}
+	.shopp #param #shopp_name{
+		position:relative;
+		line-height:1.5em;
+		display:inherit;
+		/* 高度为需要显示的行数*行高，比如这里我们显示两行，则为3 */
+		height:3em;
+		overflow:hidden;
+	}
+	.shopp #param #shopp_name:after{
+		content:"...";
+		position:absolute;
+		bottom:0;
+		right:0;
+		padding: 0 5px;
+		background-color: #fff;
+	}
+	.shopp #param .sale_count{
+		font-size: .8rem;
+		line-height: 2.5rem;
+		color: #b9b9b9;
+		display: block;
+		margin-bottom: 0;
+	}
+	
+	.shopp #param .money_layout #market_price{
+		text-align:left;
+		color: #666;
+		font-size: 18px;
+		text-decoration: line-through;
+	}
+	#jingsuan{
+		background: #FFFFFF;
+		background: #FFFFFF;
+		padding: 0 0rem;
+}
+	#like_item_name{
+		padding:0.9rem 0rem 0.9rem 0.9rem;
+	}
+	h3,strong{paddig:0;margin:0px}
+	#jingsuan .shopp {
+			width: 100%;
+			display: block;
+			padding-left: 0rem;
+			padding-right: 0rem;
+			cursor: pointer;
+			position: relative;
+	}
+	#jingsuan .shopp #thumbnail{
+		width:100%;
+	}
+	#jingsuan .like_inlineflex_item{
+		width: 45%;
+		display: -webkit-inline-box;
+		display: inline-flex;
+		padding:.75rem;
+	}
+	#jingsuan .like_inlineflex_item:nth-child(even){
+		border-bottom: 1px solid #dfdfdf;
+	}
+	#jingsuan .like_inlineflex_item:nth-child(odd){
+		border-right: 1px solid #dfdfdf;
+		border-bottom: 1px solid #dfdfdf;
+	}
+		

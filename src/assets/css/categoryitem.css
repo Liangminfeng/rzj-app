@@ -1,0 +1,114 @@
+#header_name {
+	text-alig:center;
+	color:#000000;
+	font-size:1rem;
+	width:100%;
+	padding:1rem 0 1rem 0rem;
+}
+.Categoryitem_design{
+	background:#FFFFFF;
+	margin-bottom: 3.5rem;
+}
+
+.van-sidebar-item--select::before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #ee0a24;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: '';
+}
+#likes_item{
+	display:flex;
+	flex-wrap: wrap;
+}
+#Category_div{
+	width: 83%;
+	max-width: 436px;
+}
+#Category_div .shopp #thumbnail {
+    width: 184px;
+    height: 100%;
+    border: 0px solid #F1EFEE;
+    margin-left: 0.7rem;
+    margin-right: 0.6rem;
+    border-radius: 1rem;
+}
+.shopp #thumbnail img {
+    width: 100%;
+    border-radius: .6rem;
+}
+.shopp #param .money_layout #price {
+    text-align: left;
+    color: #ff0000;
+    font-size: 26px;
+    margin-right: 9px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#Category_div .shopp {
+    width: 100%;
+    display: block;
+    border-top: 1px solid #F1EFEE;
+    padding: .55rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+}
+#Category_div .shopp #param {
+    width: 290px;
+		height:100%;
+}
+.shopp #param .money_layout i#price_icon {
+    text-align: left;
+    color: #ff0000;
+    font-size: 14px;
+    font-style: initial;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+.shopp_cart {
+    display: flex;
+    position: absolute;
+    right: 6px;
+    bottom: .9rem;
+}
+#likes_item {
+    display: flex;
+    flex-wrap: wrap;
+		position: relative;
+}
+.shopp_cart .van-button{
+	height:38px;
+}
+#Category_div {
+    width: 83%;
+    max-width: 436px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    right: 4px;
+    overflow-y: auto;
+}
+#Category_div::-webkit-scrollbar {
+			width:2px;
+			height:100%;
+	}
+.shopp #param #shopp_name {
+	    margin-bottom: 0;
+	    font-size: .96rem;
+			line-height: 1rem;
+	    text-align: justify;
+	    color: #333;
+	    word-break: break-all;
+	    overflow: hidden;
+	    text-overflow: ellipsis;
+	    display: -webkit-box;
+	    -webkit-line-clamp: 2;
+	}

@@ -1,0 +1,138 @@
+@import url("../fonts/iconfont.css");
+div.bgground{
+	width: 100%;
+	height: 100%;
+	background: url(https://app.rezhuangzi.com//static/img/bg.566d5a2.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: absolute;
+}
+div.bgground .login_switch {
+    background: #FFFFFF;
+    width: 75%;
+    height: 85%;
+    border-radius: 1rem;
+    padding: 1.3rem;
+}
+.alir{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #969c9f;
+	font-size: 0.96rem;
+	margin-top: 1.1rem;
+}
+.login_switch button[type=submit]
+{
+	background: #f97777;
+	border-radius: 4rem;
+	border: none;
+	font-size: 1.2rem;
+	margin-top: 4rem;
+	padding: 1.7rem;
+}
+.login_switch button.van-button--small {
+    border: none;
+    font-size: 1.1rem;
+    color: #f97777;
+    background: none;
+    height: unset;
+    position: relative;
+    top: 0px;
+}
+.login_switch .van-cell {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.25rem 16px;
+    overflow: hidden;
+    color: #969c9f;
+    font-size: 14px;
+    background-color: #f8f8f8;
+    border: none;
+    margin-top: 1.2rem;
+    border-radius: 10rem;
+    line-height: 1rem;
+}
+.login_switch .van-cell input[placeholder]{
+	font-size:1.3rem;
+	padding-left: 1rem;
+}
+.login_switch .van-tabs__wrap{
+	margin: 2.5rem auto;
+	margin-bottom: 5.2rem;
+}
+.login_switch .van-tabs__wrap span{
+	font-size:1.2rem
+}
+.login_switch .van-tabs__line{
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	z-index: 1;
+	width: 40%;
+	height: 0.5px;
+	background-color: #ee0a24;
+	border-radius: 3px;
+}
+.login_switch .van-tab{
+	color:#000000;
+}
+.login_switch .contact_user{
+	background-color: #f8f8f8;
+	border-radius:9rem;
+	display:flex;
+	flex-wrap: wrap;
+	margin-bottom:1.6rem;
+}
+.login_switch .contact_password{
+	background-color: #f8f8f8;
+	border-radius:9rem;
+	display:flex;
+	flex-wrap: wrap;
+}
+.login_switch .contact_user .van-cell{
+		width: 84%;
+		margin: 0;
+		display: block;
+		margin-left:11px;
+}
+.login_switch .contact_password .van-cell{
+		width: 84%;
+		margin: 0;
+		display: block;
+		margin-left:11px;
+}
+.login_switch #contact_icon1{
+		width: 20px;
+		height: 25px;
+		position: relative;
+		top: 19px;
+		left: 21px;
+		z-index: 15;
+}
+.login_switch #contact_icon{
+		 width: 20px;
+		 height: 25px;
+		 position: relative;
+		 top: 19px;
+		 left: 21px;
+		 z-index: 15;
+}

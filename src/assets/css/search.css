@@ -1,0 +1,80 @@
+body{
+	background-color: #FFFFFF;
+}
+#navbar_model{
+		padding:.2rem 0rem;
+		background:#FFFFFF;
+	}
+	.van-icon-arrow-left::before {
+	    content: '\F008';
+	    color: #9d9d9d;
+	    font-size: 1.25rem;
+	}
+	[class*=van-hairline]::after {
+	    position: absolute;
+	    box-sizing: border-box;
+	    content: ' ';
+	    pointer-events: none;
+	    top: -50%;
+	    right: -50%;
+	    bottom: -50%;
+	    left: -50%;
+	    border: 0 solid #ffffff;
+	    -webkit-transform: scale(.5);
+	    transform: scale(.5);
+	}
+	.search_index{
+		background:#FFFFFF;
+	}
+	.search_model {
+		background: #F7F7F7;
+		padding: .9rem 0rem;
+		display: flex;
+	}
+	.search_model .van-search {
+	    display: flex;
+	    align-items: center;
+	    box-sizing: border-box;
+	    padding: 0px 12px;
+	    background-color: #f7f7f7;
+	    width: 81.5%;
+	    max-width: 423.8px;
+	}
+	.van-button--normal {
+		padding: 0 0px;
+		font-size: 14px;
+		width: 84px;
+		height:42px;
+	}
+	.van-search__content {
+	    display: -webkit-box;
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-box-flex: 1;
+	    -webkit-flex: 1;
+	    flex: 1;
+	    padding-left: 12px;
+	    background-color: #ffffff;
+	    /* border-radius: 2px; */
+	}
+	.van-search__content {
+	    display: flex;
+	    flex: 1;
+	    padding: 0.25rem 0rem;
+	    padding-left: 12px;
+	    background-color: #ffffff;
+	    /* border-radius: 2px; */
+	}
+	.search_shopp {
+		height:100%;
+		width:100%;
+		max-width:520px;
+		position:absolute;
+		overflow:hidden;
+		overflow-y: auto;
+		background:#FFFFFF;
+	}
+	.search_shopp::-webkit-scrollbar {
+			width:1px;
+			height:100%;
+	}
